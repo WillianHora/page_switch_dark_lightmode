@@ -1,0 +1,72 @@
+:root{
+    --black:rgb(15, 15, 15);
+    --blue:rgb(199, 242, 242);
+    --inter:rgb(36, 178, 194);
+    --inter2:rgba(0, 57, 62, 0.686);
+}
+
+
+main{
+    background-color:  var(--baseColor);
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+   
+}
+
+body {
+font-family: monospace;
+text-align: center;
+margin:auto;
+}
+
+
+
+
+ul {
+font-family: Arial, Helvetica, sans-serif;
+display: inline-block;
+
+
+}
+li {
+    list-style: circle;
+  
+   
+  }
+  
+
+
+
+.btn{
+    width:50px;
+    height: 50px;
+    border-radius:100px;
+    color: var(--btnFontColor);
+    background-color:var(--btnBg);
+    cursor: pointer;
+    margin: 10px;
+    border: none;
+
+}
+
+
+
+
+ .light-theme{
+    color: var(--black);
+    background-color:var(--blue);
+    --btnFontColor:var(--blue);
+    --btnBg:var(--black);
+    --baseColor:var(--inter);
+}
+
+
+.dark-theme{
+    background-color:var(--black) ;
+    color:var(--blue);
+    --btnFontColor:var(--black);
+    --btnBg:var(--blue);
+    --baseColor:var(--inter2)
+    
+}
